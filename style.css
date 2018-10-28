@@ -2,7 +2,6 @@
 /* CSS Document */
 
 .bgimage{
-	background: image("../FF/images/simon-maage-706908-unsplash.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -30,6 +29,30 @@
 	width: 200px;
 	align-items:center;
     justify-content: center;
+}
+
+.AS_MainPanel{
+	margin-left: 200px;
+	margin-top: 200px;
+	height: 500px;
+	width: 500px;
+	opacity: 0.65;
+	background: #FFF;
+	border-radius: 20px;
+	align-items: center;
+	justify-content: center;
+}
+
+.AS_LeftPanel{
+	margin-left: 10px;
+	margin-top: 10px;
+	height: 500px;
+	width: 200px;
+	opacity: 0.65;
+	background: #FFF;
+	border-radius: 20px;
+	align-items: center;
+	justify-content: center;
 }
 
 form{
@@ -92,3 +115,5 @@ input {
 	margin-top: 10px;
 }
 
+.bgimage .AS_MainPanel {
+}
